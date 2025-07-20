@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Document</title>
-    </head>
-    <body>
+  </head>
+  <body>
     <!-- Star Header  -->
-    <nav id="header" class="bg-white">
+    <!-- <nav id="header" class="bg-white">
         <div class="container mx-auto flex justify-between justify-items-center items-center relative shadow-lg bg-white rounded">
         <div><a href="#" class="logo text-[var(--main-color)] font-bold h-[72px] flex py-3  items-center justify-center text-[26px]">Elzero</a></div>
         <ul class="flex flex-wrap justify-center itmes-center justify-items-center overflow-hidden ">
@@ -23,7 +23,6 @@
             <li class="h-[72px] px-[30px] py-6 text-[18px] transition-[var(--main-transistion)] before:absolute before:w-full before:h-1 before:top-0 before:bg-[var(--main-color)] before:left-[-100%] overflow-hidden before:transition-[var(--main-transition)] hover:before:opacity-100 hover:before:left-0 hover:before:transition-[var(--main-transition)] hover:text-[var(--main-color)]"><a href="Features">Features</a></li>
             <li class="h-[72px] px-[30px] py-6 text-[18px] transition-[var(--main-transistion)] before:absolute before:w-full before:h-1 before:top-0 before:bg-[var(--main-color)] before:left-[-100%] ov,erflow-hidden before:transition-[var(--main-transition)] hover:before:opacity-100 hover:before:left-0 hover:before:transition-[var(--main-transition)] hover:text-[var(--main-color)]">
                 <a href="Other Links">Other Links</a>
-                <!-- start megameny -->
                 <div class=" flex w-full left-0 top-[100px] bg-white absolute  ">
                 <div class="imegs">
                 <img class="max-w-[100%]" src="./images/megamenu.png" alt="" />
@@ -63,15 +62,41 @@
                 </li>
             </ul>
             </div>
-                <!-- End megameny -->
             </li>
         </ul>
         </div>
-    </nav>
+    </nav> -->
     <!-- End Header -->
 
+    <nav class="container h-[50px] mx-auto flex justify-between items-center">
+      <h1>Elzero</h1>
+      <ul class="flex items-center gap-2 h-full">
+        <li class="flex items-center justify-center h-full cursor-pointer relative px-2 overflow-hidden after:absolute after:w-full after:h-full after:bg-gray-100 after:z-[-1] after:left-[-100%] hover:after:left-0 after:duration-500 before:absolute before:w-full before:h-[4px] before:bg-blue-500 before:z-[0] before:left-[-100%] hover:before:left-0 before:top-0 before:duration-500"><a> Articles </a></li>
+        <li class="flex items-center justify-center h-full cursor-pointer relative px-2 overflow-hidden after:absolute after:w-full after:h-full after:bg-gray-100 after:z-[-1] after:left-[-100%] hover:after:left-0 after:duration-500 before:absolute before:w-full before:h-[4px] before:bg-blue-500 before:z-[0] before:left-[-100%] hover:before:left-0 before:top-0 before:duration-500"><a> Gallery </a></li>
+        <li class="flex items-center justify-center h-full cursor-pointer relative px-2 overflow-hidden after:absolute after:w-full after:h-full after:bg-gray-100 after:z-[-1] after:left-[-100%] hover:after:left-0 after:duration-500 before:absolute before:w-full before:h-[4px] before:bg-blue-500 before:z-[0] before:left-[-100%] hover:before:left-0 before:top-0 before:duration-500"><a> Features </a></li>
+        <li class="group flex items-center justify-center h-full cursor-pointer relative px-2 overflow-hidden after:absolute after:w-full after:h-full after:bg-gray-100 after:z-[-1] after:left-[-100%] hover:after:left-0 after:duration-500 before:absolute before:w-full before:h-[4px] before:bg-blue-500 before:z-[0] before:left-[-100%] hover:before:left-0 before:top-0 before:duration-500">
+            <a> Other Links </a>
+            <div class="fixed group-hover:flex top-[50px] duration-500  hidden items-center  container left-1/2 -translate-x-1/2  w-full bg-gray-200 " >
+                <img src="./images/megamenu.png" class=" flex-1 w-full h-full" />
+                <ul class="flex-1 grid grid-cols-2 gap-1 h-fit  " >
+                    <a class="bg-gray-300 py-1 "  href=""> Testimonials </a>
+                    <a class="bg-gray-300 py-1 "  href=""> Team Members </a>
+                    <a class="bg-gray-300 py-1 "  href=""> Services </a>
+                    <a class="bg-gray-300 py-1 "  href=""> Our Skills </a>
+                    <a class="bg-gray-300 py-1 "  href=""> How It Works </a>
+                    <a class="bg-gray-300 py-1 "  href=""> Events </a>
+                    <a class="bg-gray-300 py-1 "  href=""> Pricing Plans </a>
+                    <a class="bg-gray-300 py-1 "  href=""> Top Videos </a>
+                    <a class="bg-gray-300 py-1 "  href=""> Stats </a>
+                    <a class="bg-gray-300 py-1 "  href=""> Request A Discount </a>
+                </ul>
+            </div>
+        </li>
+      </ul>
+    </nav>
+
     <!-- Star laending  -->
-    <section class="relative before:transform before:z-[-1] before:-skew-y-6 w-full before:origin-top-left h before:absolute before:w-full before:h-full before:left-[-50px] before:top-0 before:bg-[#ececec]">
+    <!-- <section class="relative before:transform before:z-[-1] before:-skew-y-6 w-full before:origin-top-left h before:absolute before:w-full before:h-full before:left-[-50px] before:top-0 before:bg-[#ececec]">
       <div class="container pb-[120px] min-h-[calc(100vh-72px)] relative z-[1] bg-slasste-600 mx-auto flex justify-between flex-1 items-center">
         <div class="text">
           <h1 class="text-[40px] font-bold mb-[30px]">Welcome, To Elzero World</h1>
@@ -82,7 +107,7 @@
         </div>
       </div>
       <a href="Articles"> <i class="fas fa-angle-double-down text-[20px] text-[var(--main-color)] hover:text-red-500 transition-all duration-300 absolute z-20 left-1/2 -translate-x-1/2 animate-bounce bottom-[30px]"> </i></a>
-    </section>
+    </section> -->
     <!-- End laending -->
-    </body>
+  </body>
 </html>
