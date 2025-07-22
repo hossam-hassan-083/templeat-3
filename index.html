@@ -11,66 +11,68 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Document</title>
-  </head>
-  <body>
+    </head>
+    <body>
     <!-- Star Header  -->
-    <!-- <nav id="header" class="bg-white">
+        <nav id="header" class="bg-white">
         <div class="container mx-auto flex justify-between justify-items-center items-center relative shadow-lg bg-white rounded">
-        <div><a href="#" class="logo text-[var(--main-color)] font-bold h-[72px] flex py-3  items-center justify-center text-[26px]">Elzero</a></div>
-        <ul class="flex flex-wrap justify-center itmes-center justify-items-center overflow-hidden ">
-            <li class="h-[72px] px-[30px] py-6 text-[18px] transition-[var(--main-transistion)] before:absolute before:w-full before:h-1 before:top-0 before:bg-[var(--main-color)] before:left-[-100%] overflow-hidden before:transition-[var(--main-transition)] hover:before:opacity-100 hover:before:left-0 hover:before:transition-[var(--main-transition)] hover:text-[var(--main-color)]"><a href="Articles">Articles</a></li>
-            <li class="h-[72px] px-[30px] py-6 text-[18px] transition-[var(--main-transistion)] before:absolute before:w-full before:h-1 before:top-0 before:bg-[var(--main-color)] before:left-[-100%] overflow-hidden before:transition-[var(--main-transition)] hover:before:opacity-100 hover:before:left-0 hover:before:transition-[var(--main-transition)] hover:text-[var(--main-color)]"><a href="Gallery">Gallery</a></li>
-            <li class="h-[72px] px-[30px] py-6 text-[18px] transition-[var(--main-transistion)] before:absolute before:w-full before:h-1 before:top-0 before:bg-[var(--main-color)] before:left-[-100%] overflow-hidden before:transition-[var(--main-transition)] hover:before:opacity-100 hover:before:left-0 hover:before:transition-[var(--main-transition)] hover:text-[var(--main-color)]"><a href="Features">Features</a></li>
-            <li class="h-[72px] px-[30px] py-6 text-[18px] transition-[var(--main-transistion)] before:absolute before:w-full before:h-1 before:top-0 before:bg-[var(--main-color)] before:left-[-100%] ov,erflow-hidden before:transition-[var(--main-transition)] hover:before:opacity-100 hover:before:left-0 hover:before:transition-[var(--main-transition)] hover:text-[var(--main-color)]">
-                <a href="Other Links">Other Links</a>
-                <div class=" flex w-full left-0 top-[100px] bg-white absolute  ">
+            <div><a href="#" class="logo text-[var(--main-color)] font-bold h-[72px] flex py-3 items-center justify-center text-[26px]">Elzero</a></div>
+            <ul class="flex flex-wrap justify-center itmes-center justify-items-center">
+                <li class="h-[72px] px-[30px] py-6 text-[18px] cursor-pointer relative overflow-hidden transition-[var(--main-transistion)] before:absolute before:w-full before:h-1 before:top-0 before:bg-[var(--main-color)] before:left-[-100%] before:transition-[var(--main-transition)] hover:before:opacity-100 hover:before:left-0 hover:before:transition-[var(--main-transition)] hover:text-[var(--main-color)]"><a href="Articles">Articles</a></li>
+                <li class="h-[72px] px-[30px] py-6 text-[18px] cursor-pointer relative overflow-hidden transition-[var(--main-transistion)] before:absolute before:w-full before:h-1 before:top-0 before:bg-[var(--main-color)] before:left-[-100%] before:transition-[var(--main-transition)] hover:before:opacity-100 hover:before:left-0 hover:before:transition-[var(--main-transition)] hover:text-[var(--main-color)]"><a href="Gallery">Gallery</a></li>
+                <li class="h-[72px] px-[30px] py-6 text-[18px] cursor-pointer relative overflow-hidden transition-[var(--main-transistion)] before:absolute before:w-full before:h-1 before:top-0 before:bg-[var(--main-color)] before:left-[-100%] before:transition-[var(--main-transition)] hover:before:opacity-100 hover:before:left-0 hover:before:transition-[var(--main-transition)] hover:text-[var(--main-color)]"><a href="Features">Features</a></li>
+                <li class="h-[72px] px-[30px] py-6 text-[18px] cursor-pointer relative overflow-hidden transition-[var(--main-transistion)] before:absolute before:w-full before:h-1 before:top-0 before:bg-[var(--main-color)] before:left-[-100%] before:transition-[var(--main-transition)] hover:before:opacity-100 hover:before:left-0 hover:before:transition-[var(--main-transition)] hover:text-[var(--main-color)] group ">
+                <a href="Other Links ">Other Links</a>
+                <!-- Star megamenu  -->
+                <div class="fixed  group-hover:flex group-hover:transition group-hover:duration-300   hidden container w-full left-1/2 top-[100px] bg-white -translate-x-1/2 ">
                 <div class="imegs">
-                <img class="max-w-[100%]" src="./images/megamenu.png" alt="" />
+                    <img class="max-w-[100%] flex-1" src="./images/megamenu.png" alt="" />
                 </div>
-                <ul class="links h-full ">
-                <li>
-                    <a href="#testimonials"><i class="far fa-comments fa-fw"></i> Testimonials</a>
-                </li>
-                <li>
-                    <a href="#team"><i class="far fa-user fa-fw"></i> Team Members</a>
-                </li>
-                <li>
-                    <a href="#services"><i class="far fa-building fa-fw"></i> Services</a>
-                </li>
-                <li>
-                    <a href="#our-skills"><i class="far fa-check-circle fa-fw"></i> Our Skills</a>
-                </li>
-                <li>
-                    <a href="#work-steps"><i class="far fa-clipboard fa-fw"></i> How It Works</a>
-                </li>
+                <ul class="links h-full  pl-5 my-5 flex-1 py-5">
+                    <li class="pb-[20px] relative before:absolute before:w-full before:h-[1px] text-[var(--main-color)] before:bg-[#777] before:bottom-0 before:z-[12] before:left-0    ">
+                    <a href="#testimonials" class=" text-[18px] font-bold "><i class="far fa-comments fa-fw text-[18px]  mr-[10px]"></i> Testimonials</a>
+                    </li>
+                    <li class="py-[20px] relative before:absolute before:w-full before:h-[1px] text-[var(--main-color)] before:bg-[#777] before:bottom-0 before:z-[12] before:left-0">
+                    <a href="#team" class=" text-[18px] font-bold "><i class="far fa-user fa-fw  text-[18px]  mr-[10px]"></i> Team Members</a>
+                    </li>
+                    <li class="py-[20px] relative before:absolute before:w-full before:h-[1px] text-[var(--main-color)] before:bg-[#777] before:bottom-0 before:z-[12] before:left-0">
+                    <a href="#services" class=" text-[18px] font-bold "><i class="far fa-building fa-fw  text-[18px]  mr-[10px]"></i> Services</a>
+                    </li>
+                    <li class="py-[20px] relative before:absolute before:w-full before:h-[1px] text-[var(--main-color)] before:bg-[#777] before:bottom-0 before:z-[12] before:left-0">
+                    <a href="#our-skills" class=" text-[18px] font-bold "><i class="far fa-check-circle fa-fw  text-[18px]  mr-[10px]"></i> Our Skills</a>
+                    </li>
+                    <li class="pt-[20px] text-[var(--main-color)] ">
+                    <a href="#work-steps" class=" text-[18px] font-bold "><i class="far fa-clipboard fa-fw  text-[18px]  mr-[10px]"></i> How It Works</a>
+                    </li>
                 </ul>
-                <ul class="links">
-                <li>
-                    <a href="#events"><i class="far fa-calendar-alt fa-fw"></i> Events</a>
-                </li>
-                <li>
-                <a href="#pricing"><i class="fas fa-server fa-fw"></i> Pricing Plans</a>
-                </li>
-                <li>
-                <a href="#video"><i class="far fa-play-circle fa-fw"></i> Top Videos</a>
-                </li>
-                <li>
-                <a href="#stats"><i class="far fa-chart-bar fa-fw"></i> Stats</a>
-                </li>
-                <li>
-                <a href="#discount"><i class="fas fa-percent fa-fw"></i> Request A Discount</a>
-                </li>
-            </ul>
-            </div>
+                <ul class="links flex-1 my-5 pl-5 py-5">
+                    <li class="pb-[20px] relative before:absolute before:w-full before:h-[1px] text-[var(--main-color)] before:bg-[#777] before:bottom-0 before:z-[12] before:left-0">
+                    <a href="#events" class=" text-[18px] font-bold "><i class="far fa-calendar-alt fa-fw  text-[18px]  mr-[10px]"></i> Events</a>
+                    </li>
+                    <li class="py-[20px] relative before:absolute before:w-full before:h-[1px] text-[var(--main-color)] before:bg-[#777] before:bottom-0 before:z-[12] before:left-0">
+                    <a href="#pricing" class=" text-[18px] font-bold "><i class="fas fa-server fa-fw  text-[18px]  mr-[10px]"></i> Pricing Plans</a>
+                    </li>
+                    <li class="py-[20px] relative before:absolute before:w-full before:h-[1px] text-[var(--main-color)] before:bg-[#777] before:bottom-0 before:z-[12] before:left-0">
+                    <a href="#video" class=" text-[18px] font-bold "><i class="far fa-play-circle fa-fw  text-[18px]  mr-[10px]"></i> Top Videos</a>
+                    </li>
+                    <li class="py-[20px] relative before:absolute before:w-full before:h-[1px] text-[var(--main-color)] before:bg-[#777] before:bottom-0 before:z-[12] before:left-0">
+                    <a href="#stats" class=" text-[18px] font-bold "><i class="far fa-chart-bar fa-fw  text-[18px]  mr-[10px]"></i> Stats</a>
+                    </li>
+                    <li class="pt-[20px] text-[var(--main-color)]">
+                    <a href="#discount" class=" text-[18px] font-bold "><i class="fas fa-percent fa-fw  text-[18px]  mr-[10px]"></i> Request A Discount</a>
+                    </li>
+                </ul>
+                </div>
+                <!-- End megamenu -->
             </li>
-        </ul>
+            </ul>
         </div>
-    </nav> -->
-    <!-- End Header -->
+    </nav>
+<!-- End Header --> 
 
-    <nav class="container h-[50px] mx-auto flex justify-between items-center">
-      <h1>Elzero</h1>
-      <ul class="flex items-center gap-2 h-full">
+    <!-- <nav class="container h-[50px] mx-auto flex justify-between items-center">
+        <h1>Elzero</h1>
+        <ul class="flex items-center gap-2 h-full">
         <li class="flex items-center justify-center h-full cursor-pointer relative px-2 overflow-hidden after:absolute after:w-full after:h-full after:bg-gray-100 after:z-[-1] after:left-[-100%] hover:after:left-0 after:duration-500 before:absolute before:w-full before:h-[4px] before:bg-blue-500 before:z-[0] before:left-[-100%] hover:before:left-0 before:top-0 before:duration-500"><a> Articles </a></li>
         <li class="flex items-center justify-center h-full cursor-pointer relative px-2 overflow-hidden after:absolute after:w-full after:h-full after:bg-gray-100 after:z-[-1] after:left-[-100%] hover:after:left-0 after:duration-500 before:absolute before:w-full before:h-[4px] before:bg-blue-500 before:z-[0] before:left-[-100%] hover:before:left-0 before:top-0 before:duration-500"><a> Gallery </a></li>
         <li class="flex items-center justify-center h-full cursor-pointer relative px-2 overflow-hidden after:absolute after:w-full after:h-full after:bg-gray-100 after:z-[-1] after:left-[-100%] hover:after:left-0 after:duration-500 before:absolute before:w-full before:h-[4px] before:bg-blue-500 before:z-[0] before:left-[-100%] hover:before:left-0 before:top-0 before:duration-500"><a> Features </a></li>
@@ -92,22 +94,81 @@
                 </ul>
             </div>
         </li>
-      </ul>
-    </nav>
+        </ul>
+    </nav>   -->
 
     <!-- Star laending  -->
-    <!-- <section class="relative before:transform before:z-[-1] before:-skew-y-6 w-full before:origin-top-left h before:absolute before:w-full before:h-full before:left-[-50px] before:top-0 before:bg-[#ececec]">
-      <div class="container pb-[120px] min-h-[calc(100vh-72px)] relative z-[1] bg-slasste-600 mx-auto flex justify-between flex-1 items-center">
-        <div class="text">
-          <h1 class="text-[40px] font-bold mb-[30px]">Welcome, To Elzero World</h1>
-          <p class="text-[23px] text-[#666]">Here Iam gonna share everything about my life. Books Iam reading, Games Iam Playing, Stories and Events</p>
+        <section class="relative before:transform before:z-[-1] before:-skew-y-6 w-full before:origin-top-left h before:absolute before:w-full before:h-full before:left-[-50px] before:top-0 before:bg-[#ececec]">
+        <div class="container pb-[120px] min-h-[calc(100vh-72px)] relative z-[1] bg-slasste-600 mx-auto flex justify-between flex-1 items-center">
+            <div class="text">
+            <h1 class="text-[40px] font-bold mb-[30px]">Welcome, To Elzero World</h1>
+            <p class="text-[23px] text-[#666]">Here Iam gonna share everything about my life. Books Iam reading, Games Iam Playing, Stories and Events</p>
+            </div>
+            <div class="images">
+            <img class="w-600px animate-bounce max-w-[100%]" src="./images/landing-image.png" alt="" />
+            </div>
         </div>
-        <div class="images">
-          <img class="w-600px animate-bounce max-w-[100%]" src="./images/landing-image.png" alt="" />
-        </div>
-      </div>
-      <a href="Articles"> <i class="fas fa-angle-double-down text-[20px] text-[var(--main-color)] hover:text-red-500 transition-all duration-300 absolute z-20 left-1/2 -translate-x-1/2 animate-bounce bottom-[30px]"> </i></a>
-    </section> -->
-    <!-- End laending -->
-  </body>
+        <a href="Articles"> <i class="fas fa-angle-double-down text-[20px] text-[var(--main-color)] hover:text-red-500 transition-all duration-300 absolute z-20 left-1/2 -translate-x-1/2 animate-bounce bottom-[30px]"> </i></a>
+        </section>
+        <!-- End laending -->
+
+        <section class="w-full h-screen py-[100px] ">
+            <div class="container mx-auto w-full ">
+                <h1 class=" group text-center uppercase text-[30px] w-fit bg-red-500 mx-auto p-[5px] border-2 rounded-lg relative
+                before:absolute before:w-[12px] before:h-[12px] before:-left-[50px] before:top-1/2 before:translate-y-[-50%] before:bg-[#2196f3] before:rounded-full hover:before:left-0 hover:before:transition-[var(--main-transition)] hover:before:z-[]
+                after:absolute after:w-[12px] after:h-[12px] after:-right-[50px] after:top-1/2 after:translate-y-[-50%] after:bg-[#2196f3] after:rounded-full hover:after:right-0 hover:after:transition-[var(--main-transition)]">Articles</h1>
+                <div class="main-box">
+                    <div class="box">
+                        <img src="" alt="">
+                        <h3></h3>
+                        <p></p>
+                        <span></span><i></i>
+                    </div>
+                    <div class="box">
+                        <img src="" alt="">
+                        <h3></h3>
+                        <p></p>
+                        <span></span><i></i>
+                    </div>
+                    <div class="box">
+                        <img src="" alt="">
+                        <h3></h3>
+                        <p></p>
+                        <span></span><i></i>
+                    </div>
+                    <div class="box">
+                        <img src="" alt="">
+                        <h3></h3>
+                        <p></p>
+                        <span></span><i></i>
+                    </div>
+                    <div class="box">
+                        <img src="" alt="">
+                        <h3></h3>
+                        <p></p>
+                        <span></span><i></i>
+                    </div>
+                    <div class="box">
+                        <img src="" alt="">
+                        <h3></h3>
+                        <p></p>
+                        <span></span><i></i>
+                    </div>
+                    <div class="box">
+                        <img src="" alt="">
+                        <h3></h3>
+                        <p></p>
+                        <span></span><i></i>
+                    </div>
+                    <div class="box">
+                        <img src="" alt="">
+                        <h3></h3>
+                        <p></p>
+                        <span></span><i></i>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </body>
 </html>
